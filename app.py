@@ -54,7 +54,7 @@ def user_input(user_question, faiss_index, chat_history):
 
 def main():
     st.set_page_config("Chat PDF")
-    st.title("Q&A Chatbot using DQ Care PDF")
+    st.title("Q&A Chatbot using PDF")
 
     pdf_docs = st.file_uploader("Upload your PDF Files", accept_multiple_files=True)
     user_question = st.text_input("Ask a Question from the PDF Files")
